@@ -1,0 +1,490 @@
+/* ---------------------------------------------- /*
+ * Default Settings
+/* ---------------------------------------------- */
+@import url("../css/bootstrap.css");
+@import url("../css/responsive.css");
+@import url("../css/animate.css");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-BdCn";
+  src: url("../css/fonts/HelveticaNeueLTPro-BdCn.eot"); /* IE9 Compat Modes */
+  src: url("../css/fonts/HelveticaNeueLTPro-BdCn.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../css/fonts/HelveticaNeueLTPro-BdCn.otf") format("opentype"), /* Open Type Font */
+    url("../css/fonts/HelveticaNeueLTPro-BdCn.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../css/fonts/HelveticaNeueLTPro-BdCn.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url("../css/fonts/PlayfairDisplay-Regular.eot") format("embedded-opentype"),url("../css/fonts/PlayfairDisplay-Regular.woff") format("woff"),url("../css/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: HelveticaNeue-CondensedBold;
+    src: url("../css/fonts/HelveticaNeueLTPro-XBlkCn.eot") format("embedded-opentype"),url("../css/fonts/HelveticaNeueLTPro-XBlkCn.woff") format("woff"),url("../css/fonts/HelveticaNeueLTPro-XBlkCn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Helvetica Neue;
+    src: url("../css/fonts/HelveticaNeueLTPro-LtCn.eot") format("embedded-opentype"),url("../css/fonts/HelveticaNeueLTPro-LtCn.woff") format("woff"),url("../css/fonts/HelveticaNeueLTPro-LtCn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e9e9e9;
+	font-family: Helvetica Neue;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.cerceve {
+	width: 88% !important;
+   	padding-right: 15px;
+  	padding-left: 15px;
+  	margin-right: auto;
+ 	margin-left: auto;
+}
+
+
+/* ---------------------------------------------- /*
+ * Navbar
+/* ---------------------------------------------- */
+
+.navbar-brand{
+  margin: 20px 0 15px -10px;
+  padding: 0;
+}
+nav{
+  margin-top: -15px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+nav ul{
+  list-style-image: url('../img/nav-icon.png') !important ;
+}
+.nav-item{
+  margin-left: 30px !important;
+}
+.nav-link{
+  margin-right: -7px !important;
+  color: rgb(18, 107, 51) !important;
+  margin-top: 15px;
+}
+/* ---------------------------------------------- /*
+ * Slider
+/* ---------------------------------------------- */
+
+#myslider .carousel-item{
+  height: 90%;
+
+}
+#myslider .carousel-indicators{
+  width: 25px;
+  text-align: right;
+  float: right;
+  top: 40%;
+  right: -20% !important;
+  left: inherit;
+  display: block;
+  
+}
+#myslider .carousel-indicators li{
+  margin-bottom: 15px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #1c1c1c;
+}
+#myslider .carousel-indicators .active{
+  width: 45px;
+  background-color: #e50303;
+}
+#myslider .carousel-caption h5{
+  font-family: "Playfair Display";
+  font-weight: bolder;
+  font-size: 200%;
+  margin-top: -200px;
+}
+#myslider .carousel-caption p{
+  font-family: "Playfair Display";
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+/* ---------------------------------------------- /*
+ * İndex Content
+/* ---------------------------------------------- */
+
+#content-index {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#content-index .p1 {
+  padding-top: 1%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 70% !important;
+  color: rgb(18, 107, 51) !important;
+}
+#content-index h3{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(18, 107, 51) !important;
+}
+#content-index .p2 {
+  padding-top: 5px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* ---------------------------------------------- /*
+ * Hakkımızda
+/* ---------------------------------------------- */
+#hakkimizda h3{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  font-style: italic;
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: rgb(18, 107, 51) !important;
+}
+#hakkimizda .right{
+  padding-top: 25px;
+  background-image: url('../img/bg-hakkimizda.png');
+  background-repeat: no-repeat;
+  background-size: 70% 100px;
+}
+#hakkimizda p{
+  font-size: 19px;
+  line-height: 35px;
+}
+/* 
+#hakkimizda img{
+  width: 85%;
+  float: right;
+}
+*/
+/* ---------------------------------------------- /*
+ * Ürünler
+/* ---------------------------------------------- */
+#urunler .col-md-3{
+  margin: 10px;
+  padding: 0;
+  padding-left: 10px;
+}
+#urunler .inBorder{
+  border: 10px solid #fff;
+  position: relative;
+  z-index: 100;
+}
+#urunler .content{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 80%;
+  background-image: url('../img/bg-news-products-download.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  z-index: 10;
+}
+#urunler h3{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(18, 107, 51);
+}
+#urunler p{
+  font-size: 17px;
+  letter-spacing: -0.05px;
+  margin-top: -5px;
+  color: rgb(18, 107, 51);
+}
+
+
+/* ---------------------------------------------- /*
+ * Ürün Detay
+/* ---------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------- /*
+ * Detay
+/* ---------------------------------------------- */
+#detay h4{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(18, 107, 51);
+}
+#detay p{
+  font-size: 16px;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * Kalite
+/* ---------------------------------------------- */
+
+#kalite h4{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  text-transform: uppercase;
+  padding-left: 35px;
+  font-style: italic;
+  color: rgb(18, 107, 51);
+}
+#kalite p{
+  font-size: 20px;
+}
+#kalite .img{
+  margin-top: -4%;
+}
+
+
+/* ---------------------------------------------- /*
+ * Galeri
+/* ---------------------------------------------- */
+
+#galeri .col-md-3{
+  margin: 10px;
+  padding: 0;
+  padding-left: 10px;
+}
+#galeri .inBorder{
+  border: 10px solid #fff;
+  position: relative;
+  z-index: 100;
+}
+#galeri .content{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 80%;
+  background-image: url('../img/bg-news-products-download.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  z-index: 10;
+}
+#galeri h3{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(18, 107, 51);
+}
+#galeri p{
+  font-size: 17px;
+  letter-spacing: -0.05px;
+  margin-top: -5px;
+  color: rgb(18, 107, 51);
+}
+
+
+/* ---------------------------------------------- /*
+ * İletişim
+/* ---------------------------------------------- */
+
+#iletisim h4{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  font-size: 30px;
+  color: rgb(18, 107, 51);
+}
+#iletisim p{
+  font-size: 17px;
+  letter-spacing: -0.06;
+}
+#iletisim .left{
+  margin-right: 6%;
+}
+#iletisim input{
+  border: none;
+  border-bottom: 1px solid rgb(18, 107, 51);
+  height: 35px;
+  font-size: 12px;
+}
+#iletisim a{
+ color: rgb(4, 4, 4);
+ height: 35px;
+ width: 40%;
+ font-size: 16px;
+ margin: auto;
+ padding-top: 8px;
+}
+#iletisim .button{
+  float: left;
+}
+
+
+
+
+
+/* ---------------------------------------------- /*
+ * Nasıl
+/* ---------------------------------------------- */
+
+#nasil h5{
+  font-family: "HelveticaNeueLTPro-BdCn";
+  font-size: 25px;
+  color: rgb(18, 107, 51);
+  margin-bottom: 40px;
+}
+#nasil li{
+  font-size: 18px;
+  letter-spacing: -0.06;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+/* ---------------------------------------------- /*
+ * Footer
+/* ---------------------------------------------- */
+
+.container-fluid {
+  background-color: #111;
+}
+#footer{
+  color: #bbb;
+  text-transform: uppercase;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+#footer i{
+  margin-left: 25px;
+  font-size: 18px;
+}
+#footer i:hover{
+  color: #0056B3;
+}
+#footer maps{
+  border: solid 1px #3d3d3d;
+}
+#footer a{
+  color: #bbb;
+}
+
+
+/* ---------------------------------------------- /*
+ * Panel Giriş
+/* ---------------------------------------------- */
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 90%;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.icon {
+  padding: 10px;
+  background: green;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  margin-left: 5%;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+
+/* ---------------------------------------------- /*
+ * Panel
+/* ---------------------------------------------- */
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 50px;
+  margin-left:auto; 
+ margin-right:auto;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: green;
+  color: white;
+}

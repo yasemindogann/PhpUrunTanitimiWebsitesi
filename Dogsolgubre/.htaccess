@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule ^index index.php [L,NC]
+RewriteRule ^nasil nasil.php [L,NC]
+RewriteRule ^urunler urunler.php [L,NC]
+RewriteRule ^galeri galeri.php [L,NC]
+RewriteRule ^hakkimizda hakkimizda.php [L,NC]
+RewriteRule ^iletisim iletisim.php [L,NC]
+RewriteRule ^detay detay.php [L,NC]
+RewriteRule ^urun-detay urun-detay.php [L,NC]
